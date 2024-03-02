@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Corben", serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6D2932;
+    color: #561C24;
+    font-size: 20px;
+}
+.temperature-converter{
+    background: white;
+    width: 100%;
+    min-width: 320px;
+    padding: 20px 25px 45px;
+    border-radius: 6px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+}
+.result{
+    text-align: center;
+    margin: 10px 0;
+}
+.result-header{
+    color: #E8D8C4;
+    font-size: 22px;
+    font-weight: 500;
+}
+.celsius-value{
+    border-bottom: 2px solid #E8D8C4;
+    padding: 10px;
+}
+.degree-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+label{
+    color: #561C24;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+input, select{
+    font-family: "Corben", serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #561C24;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+select{
+    margin-bottom: 2px;
+}
+input:focus{
+    border: 1px solid #6D2932;
+}
+option{
+    background: #561C24;
+    color: #E8D8C4;
+}
+#convert-btn{
+    font-family: "Corben", serif;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: linear-gradient(#6D2932, #561C24);
+    color: white;
+    padding: 12px 80px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#convert-btn:hover{
+    background: linear-gradient(#561C24,#E8D8C4);
+
+}
+
+
+
+
